@@ -85,7 +85,7 @@ def handle_client(client_socket, address):
         if request !='':
             print("request recibido: ", request)
             if request is not None:
-                print('Recibiendo solicitud de {}:'.format(address[0]))
+                print('Recibiendo solicitud de {}:'.format(address))
 
                 # Recepción de la solicitud
                 response = handle_request(request)
